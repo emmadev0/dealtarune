@@ -39,14 +39,14 @@
 		$('.tv2').removeClass('hidden');
 		$('.tv1').addClass('hidden');
 		document.title = '* A disturbing image is burned into the screen.';
-		$('#tv2').addClass('on');
+		$('#tv').addClass('on');
 	});
 	$(document).on('click', '#tv.on', function() {
 		tv.pause();
 		$('.tv2').addClass('hidden');
 		$('.tv1').removeClass('hidden');
 		document.title = "* It's off.";
-		$('#tv2').removeClass('on');
+		$('#tv').removeClass('on');
 	});
 	</script>
 	</main>
